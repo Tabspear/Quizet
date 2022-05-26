@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Rubik', sans-serif;
-    color: white;
+    color: black;
 }
 
 body {
@@ -32,6 +32,7 @@ a {
     text-align: center;
     position: relative;
     text-decoration: none;
+    color: black;
     display:inline-block;
  }
 .a_link::before {
@@ -48,6 +49,5 @@ a {
   transition: transform 0.4s cubic-bezier(1, 0, 0, 1);
 }
 .a_link:hover::before {
-  
     transform: scale(1, 1)
 }
