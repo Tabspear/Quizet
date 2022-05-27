@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/questions.css">
+    <title>Question</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main_body">
+        <div>
+            <!-- Submit and Cancel tests -->
+            <div class="d-flex justify-content-end p-2 ">
+                <button type="button" class="btn btn-success me-3">Submit test</button>
+                <button type="button" class="btn btn-warning">Cancel test</button>
+                
+            </div>
+
+                <!-- The name and that indicates the number of the questions attempted -->
+            <div class="d-flex justify-content-between bg-danger">    
+                <div>
+                    <h4 class="text-center">Name: <p></p></h4>
+                </div>
+
+                <div class="d-sm-flex justify-content-end p-3">
+                    <div class="question_tracker " >12</div>
+                    <div class="question_tracker">40</div>
+                </div>
+            </div>
+            <!-- This is where the question starts -->
+           <div class="container d-sm-flex  justify-content-center align-items-center quiz_body p-3">
+               <form class=" q_form row  mb-2" action="" name="qForm">
+                <h1 class="text-center fw-bold">What is your name ?</h1>
+                <li><input type="checkbox" name="" id="" value="Taofeek">
+                    <label class="" for="">How many children do you have today and </label></li>
+                <li><input type="checkbox" name="" id="" value="Taofeek">
+                    <label class="" for="">How many children do you have today and yestesterday</label></li>
+                <li><input type="checkbox" name="" id="" value="Taofeek">
+                    <label class="" for="">How many children do you have today and yestesterday</label></li>
+                <li><input type="checkbox" name="" id="" value="Taofeek">
+                    <label class="" for="">How many children do you have today and yestesterday</label></li>
+                
+                    <div class="d-flex justify-content-between p-2 ">
+                        <button type="button" class="btn btn-success">Previous</button>
+                        <button type="button" class="btn btn-warning">Next</button>
+                        
+                    </div>
+               </form>
+           </div>
+               
+           
+            
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
