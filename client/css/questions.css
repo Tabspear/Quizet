@@ -15,6 +15,9 @@ body {
 
     height: 100vh;
 }
+.bg_color{
+    background-color:lightgreen;
+}
 .question_tracker {
     border: 1px solid black;
     padding:20px;
